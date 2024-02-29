@@ -1,0 +1,112 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(gym_sample_img.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+
+}
+
+.logo h1 {
+    font-size: 45px;
+    padding-left: 30px;
+    color: #ffff;
+    display: inline;
+    position: relative;
+    top: 10px;
+}
+
+.navigation ul {
+    text-align: right;
+    position: relative;
+    right:13%;
+    bottom: 25px;
+}
+
+ul li {
+    display:inline;
+    margin: 0px 10px;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 20px;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.icons {
+    float:right;
+    position: relative;
+    bottom: 45px;
+    font-size: 24px;
+    right: 20px;
+}
+
+i {
+    margin: 0px 10px;
+}
+
+i:hover {
+    color: orangered !important;
+    cursor: pointer;
+}
+
+.section {
+    text-align: center;
+    margin-top:13%;
+    line-height: 60px;
+}
+
+.section p {
+    font-size: 35px;
+    color: #848484;
+}
+
+.section h1 {
+    color: #ffff;
+    font-size: 55px;
+}
+
+.btn-1 {
+    padding: 10px;
+    border: none;
+    color: #ffff;
+    width: 180px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+.btn-2 {
+    padding: 10px;
+    border: none;
+    color: orangered;
+    width: 180px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid orangered;
+}
+
+.btn-1:hover {
+    color: orangered;
+}
+
+.btn-2:hover {
+    background-color: #ffff;
+}
